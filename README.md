@@ -3,11 +3,13 @@ k8s cloud vendor load balancing controller
 
 ### What functions are supported
 ```text
-After the user creates a service service through the kubectl command and the type is load balancing, the controller will automatically pull the available ip segment from cmdb and fill it into the service
+After the user creates a service service through the kubectl command and the type is load balancing, 
+the controller will automatically pull the available ip segment from cmdb and fill it into the service
 ```
 ### QuickStart
 ```text
-The project is divided into two modules. For demonstration purposes, cloud provider services are also integrated. The name is: cloud-provider-manager
+The project is divided into two modules. For demonstration purposes, cloud provider services are also integrated. 
+The name is: cloud-provider-manager
 ```
 #### 1、Start cloud vendor service
 ```shell
